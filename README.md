@@ -44,8 +44,18 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: `https://github.com/spring-projects/spring-boot`
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: `https://andrehora.github.io/testminer/#spring-projects/spring-boot`
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: <img width="2871" height="1289" alt="image" src="https://github.com/user-attachments/assets/c47b9ec6-fbac-4aac-80c5-553e33757094" />
+Usando a ferramenta, selecionei o seguinte teste para analisar:
+<img width="2123" height="1339" alt="image" src="https://github.com/user-attachments/assets/56158970-4cfc-4a1c-99b1-06f73de9b752" />
+O código desse teste é pequeno, mas podemos fazer a seguinte análise:
+
+<img width="1995" height="1603" alt="image" src="https://github.com/user-attachments/assets/ef3c380f-f826-4290-99a4-7c446f8ee9f5" />
+
+
+É um teste unitário, utilizando o teste de caixa-preta baseada em especificação, ou seja isolando uma unidade de código e comparando sua saída com um oráculo de teste.
+Está testando a integridade e a corretude do método  FileUtils.sha1Hash(...). 
+O teste valida se o método lê corretamente o conteúdo físico de um arquivo em disco e calcula exatamente o hash criptográfico SHA-1 correspondente em formato hexadecimal.
